@@ -7,7 +7,6 @@ public class HelloWorldController {
     final String DEFAULT_NAME = "UNKNOWN";
 
     @GetMapping("/HelloWorld")
-    @ResponseBody
     public String saluda(@RequestParam(defaultValue = DEFAULT_NAME) String nom){
         return "Hola, " + nom + ". Estàs executant un projecte Maven";
     }

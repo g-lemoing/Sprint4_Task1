@@ -11,7 +11,7 @@ public class HelloWorldController {
         return "Hola, " + nom + ". Estàs executant un projecte Gradle";
     }
 
-    @RequestMapping(value = {"/HelloWorld2", "/HelloWorld2/{nom}"})
+    @GetMapping(value = {"/HelloWorld2", "/HelloWorld2/{nom}"})
     public String saluda2(@PathVariable(required = false) String nom){
         nom = nom == null ? DEFAULT_NAME : nom;
         return "Hola, " + nom + ". Estàs executant un projecte Gradle";

@@ -29,7 +29,9 @@ git clone https://github.com/g-lemoing/Sprint4_Task1.git
 
 # Ejecución:
 Localizar y abrir las classes Main de cada ejercicio, y ejecutarlas con el Run.
+
 Para el nivel 1, abrir el navegador y testear las URI localhost:9000/HelloWorld, localhost:9000/HelloWorld?nom=tu_nombre, localhost:9000/HelloWorld2, localhost:9000/HelloWorld/tu_nombre.
+
 Para el nivel 2, abrir el navegador y testear las URI localhost:9001/HelloWorld, localhost:9001/HelloWorld?nom=tu_nombre, localhost:9001/HelloWorld2, localhost:9001/HelloWorld/tu_nombre.
 
 ## Contribucions:
